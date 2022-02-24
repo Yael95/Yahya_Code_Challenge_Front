@@ -9,7 +9,7 @@ import { pokemonsSelector, getPokemons } from "../features/pokemonSlice";
 import { SliceStatus } from "../globals";
 import { cachedPokemonsSelector } from "../features/cachedPokemonsSlice";
 import PokemonSkeleton from "../components/PokemonSkeleton";
-import { AiFillGithub } from "react-icons/ai";
+import SoundBar from "../components/audio/SoundBar";
 
 const PokemonsPage = () => {
   const pokemons = useSelector(pokemonsSelector);
@@ -21,7 +21,7 @@ const PokemonsPage = () => {
         <h1 className="text-3xl lg:text-5xl font-semibold sm:text-left inline-block">
           Front End for Poke API v2 by Yahya Elfaqir
         </h1>
-        
+        <SoundBar />
       </div>
 
       <InfiniteScroll

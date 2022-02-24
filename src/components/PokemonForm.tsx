@@ -14,6 +14,7 @@ import {
 import { SliceStatus } from "../globals";
 import PokemonGenerations from "./PokemonGenerations";
 
+
 type Props = {
   mutatePage: React.Dispatch<React.SetStateAction<number>>;
   placeholder?: string;
@@ -112,6 +113,7 @@ const PokemonForm = ({
       >
         Search
       </button>
+      
     </div>
   );
 };

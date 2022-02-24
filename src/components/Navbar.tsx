@@ -3,6 +3,8 @@ import { importImages } from "../globals";
 import * as Scroll from "react-scroll";
 import useScrollDirection from "../hooks/useScrollDirection";
 
+
+
 const scroll = Scroll.animateScroll;
 
 const Navbar = () => {
@@ -31,12 +33,15 @@ const Navbar = () => {
         (scrollDirection === "down" && !scrolledToTop && "-translate-y-16")
       }
     >
+      
+      
       <img
         className="w-10 h-10 transition duration-500 ease-in-out transform hover:rotate-180 cursor-pointer"
         alt="Pokeball"
         src={importImages("pokeball")}
         onClick={() => scroll.scrollToTop()}
       />
+     
     </div>
   );
 };
