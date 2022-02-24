@@ -14,8 +14,8 @@ In order to write the frontend in a way that would showcase my skills when it co
 
 Made with Love and **Javascript** using **React** and **TypeScript**. 
 
-[Checkout the Demo Here 👉](https://waylonwalker.com/latest)
+[Checkout the Demo Here 👉](https://jovial-lamarr-8bc700.netlify.app/)
 
 
-💌 Send me an email for improvements [email](yaelfaqir@gmail.com)
+💌 Thank you I will be waiting for your feedback
 
